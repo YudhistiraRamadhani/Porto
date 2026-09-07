@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Atur background body secara langsung agar terbaca */
+body {
+  background-color: #eef0f3 !important;
+  color: #333333;
+}
+
+html {
+  scroll-behavior: smooth;
+}
