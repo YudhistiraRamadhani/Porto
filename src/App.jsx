@@ -118,9 +118,9 @@ function App() {
                 {/* Subtle overlay gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent opacity-60"></div>
                 <div className="absolute bottom-3 left-3 right-3 text-center">
-                  <span className="text-xs font-semibold tracking-wider text-white uppercase bg-slate-900/70 border border-white/10 px-3 py-1 rounded-full backdrop-blur-md">
+                  {/* <span className="text-xs font-semibold tracking-wider text-white uppercase bg-slate-900/70 border border-white/10 px-3 py-1 rounded-full backdrop-blur-md">
                     Yudhis Dev
-                  </span>
+                  </span> */}
                 </div>
               </div>
             </div>
@@ -158,8 +158,8 @@ function App() {
       <section id="proyek" className="projects max-w-7xl mx-auto mt-28 px-6 lg:px-10 relative z-10">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-12 gap-4">
           <div>
-            <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-2">Proyek Pilihan</h2>
-            <p className="text-slate-600 text-sm sm:text-base">Beberapa hasil karya terbaik yang telah dirancang dan dikembangkan.</p>
+            <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 mb-2">Proyek </h2>
+
           </div>
         </div>
 
