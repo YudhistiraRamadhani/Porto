@@ -10,7 +10,7 @@ import Email from './Components/Email.jsx';
 function App() {
   // Data teks yang akan diketik bergantian
   const roles = [
-    "Full Stack Web Developer 👋",
+    "Full Stack Web Developer ",
     "Laravel, Express JS & React JS ",
    
   ];
