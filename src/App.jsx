@@ -11,7 +11,7 @@ function App() {
   // Data teks yang akan diketik bergantian
   const roles = [
     "Full Stack Web Developer 👋",
-    "Laravel, Express JS & React JS Specialist 🚀",
+    "Laravel, Express JS & React JS ",
    
   ];
 
@@ -183,12 +183,14 @@ function App() {
                     {item.name}
                   </h3>
                   <p className="text-slate-600 text-sm leading-relaxed mb-6 font-normal">
-                    Aplikasi web interaktif dengan fungsionalitas penuh, responsif, dan performa optimal di berbagai perangkat.
+                    {item.description}
                   </p>
                 </div>
                 
                 <a 
-                  href="#" 
+                  href={item.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 w-full bg-slate-100 hover:bg-indigo-600 hover:text-white text-slate-800 font-medium py-3 rounded-xl transition-all duration-300"
                 >
                   <span>Lihat Detail Proyek</span> 
@@ -201,7 +203,7 @@ function App() {
       </section>
 
       {/* FORM EMAIL / CONTACT */}
-      <section className="max-w-7xl mx-auto mt-28 px-6 lg:px-10 pb-24 relative z-10">
+      {/* <section className="max-w-7xl mx-auto mt-28 px-6 lg:px-10 pb-24 relative z-10">
         <div className="bg-white border border-slate-200/80 p-8 sm:p-12 rounded-3xl shadow-xl">
           <div className="max-w-2xl mx-auto text-center mb-8">
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">Mari Berkolaborasi</h2>
@@ -209,7 +211,7 @@ function App() {
           </div>
           <Email />
         </div>
-      </section>
+      </section> */}
 
     </div>
   );
