@@ -84,13 +84,13 @@ function App() {
           </p>
           
           <div className="flex flex-wrap items-center gap-4 pt-4">
-            <button 
-              className="flex items-center gap-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-7 py-3.5 rounded-xl transition-all duration-300 shadow-lg shadow-indigo-600/20 hover:scale-[1.02] active:scale-[0.98] cursor-pointer" 
-              onClick={() => window.open('/src/assets/CV.pdf')}
-            >
-              <span>Lihat CV</span> 
-              <i className="ri-download-line text-lg"></i>
-            </button>
+          <button 
+  className="flex items-center gap-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-7 py-3.5 rounded-xl transition-all duration-300 shadow-lg shadow-indigo-600/20 hover:scale-[1.02] active:scale-[0.98] cursor-pointer" 
+  onClick={() => window.open('/CV.pdf', '_blank')}
+>
+  <span>Lihat CV</span> 
+  <i className="ri-download-line text-lg"></i>
+</button>
             <a 
               href="#proyek" 
               className="flex items-center gap-2.5 bg-white hover:bg-slate-100 border border-slate-200 text-slate-700 font-semibold px-7 py-3.5 rounded-xl transition-all duration-300 shadow-sm hover:scale-[1.02] active:scale-[0.98]"
