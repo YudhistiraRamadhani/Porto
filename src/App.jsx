@@ -79,9 +79,10 @@ function App() {
           </h1>
           
           <p className="text-slate-600 text-base sm:text-lg leading-relaxed max-w-2xl font-normal">
-            Seorang Full Stack Web Developer yang berfokus menciptakan pengalaman digital berkinerja tinggi, 
-            responsif, dan memiliki estetika antarmuka modern yang memukau.
-          </p>
+            Full Stack Web Developer spesialis Laravel, Express JS & React JS. 
+               Membangun web yang cepat, rapi, dan mudah digunakan.
+</p>
+          
           
           <div className="flex flex-wrap items-center gap-4 pt-4">
           <button 
